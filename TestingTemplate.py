@@ -1,7 +1,7 @@
-"""this program will do stuff"""
+"""this program will do ___"""
 
-#variables
+#variables, lists, and dictionaries
 
-#loops and other code
+#loops and other code (add notation as needed)
 
-#final printing
+#final printing / code ending
