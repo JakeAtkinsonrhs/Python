@@ -16,7 +16,7 @@ while True:
         #check if the input is valid
         if spent >= 0:
           #check for end requirement 1
-          if spent = 0:
+          if spent == 0:
               break
           #minus the 'spent' amount from the starting balance, and save it as a new balance
           result = changing_blance - spent
