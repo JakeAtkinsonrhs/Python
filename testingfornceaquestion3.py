@@ -30,3 +30,9 @@ while True:
             print('That is not a valid transaction.')
     except ValueError:
         print('That is not a valid transaction.')
+
+#final printing
+print('My bank balances have been:')
+#repeat for every balance in balances
+for balance in balances:
+    print(balance)
