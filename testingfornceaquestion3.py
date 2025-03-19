@@ -33,6 +33,7 @@ while True:
 
 #final printing
 print('My bank balances have been:')
+print(STARTING_BALANCE)
 #repeat for every balance in balances
 for balance in balances:
     print(balance)
