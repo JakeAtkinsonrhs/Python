@@ -19,7 +19,7 @@ while True:
           if spent == 0:
               break
           #minus the 'spent' amount from the starting balance, and save it as a new balance
-          result = changing_blance - spent
+          result = changing_balance - spent
           #add changing balance to balances, and update changing balance to match result
           changing_balance = result
           balances.append(changing_balance)
