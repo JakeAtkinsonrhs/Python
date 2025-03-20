@@ -23,8 +23,8 @@ while True:
           #add changing balance to balances, and update changing balance to match result
           changing_balance = result
           balances.append(changing_balance)
-          #check for end requirement 2
-          if changing_balance == 0:
+          #check for end requirements
+          if changing_balance <= 0:
               break
         else:
             print('That is not a valid transaction.')
