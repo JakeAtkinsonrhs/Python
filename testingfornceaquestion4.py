@@ -33,4 +33,4 @@ for score in scores:
 if smart_students == 1:
     print('This class has 1 smart student!')
 else:
-    print(f'this class has {smart_students} smart students!')
+    print(f'This class has {smart_students} smart students!')
