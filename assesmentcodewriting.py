@@ -16,23 +16,21 @@ speed = input('Input descent speed in m/s: ')
 while speed != FINISH_WORD:
     #check if speed is a number
     try:
-        #convert speed from a string to a float
+        #convert speed to a float
         speed = float(speed)
-        #check if speed is a valid number
+        #check if speed is valid
         if speed >= ZERO:
-             #check if speed is faster than safe speed
-             if speed > SAFE_SPEED:
-                #add speed to unsafe_speeds
+            #check if speed is safe, and add to its respective list
+            if speed > SAFE_SPEED:
                 unsafe_speeds.append(speed)
-             else:
-                #add speed to safe_speeds
+            else:
                 safe_speeds.append(speed)
         else:
-            #if speed is a negative number, then print this message
             print('Error, invalid input.')
     except ValueError:
-        #if speed is not a number, then print this message
         print('Error, invalid input.')
+    #ask for more user input
+    speed = input('Input descent speed in m/s: ')
 
 #final printing / code ending
 print('code worked, proceed with final printing writing')
