@@ -24,7 +24,7 @@ while speed != FINISH_WORD:
              if speed > SAFE_SPEED:
                 #add speed to unsafe_speeds
                 unsafe_speeds.append(speed)
-            else:
+             else:
                 #add speed to safe_speeds
                 safe_speeds.append(speed)
         else:
@@ -35,3 +35,4 @@ while speed != FINISH_WORD:
         print('Error, invalid input.')
 
 #final printing / code ending
+print('code worked, proceed with final printing writing')
