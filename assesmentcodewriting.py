@@ -3,7 +3,7 @@
 #variables
 SAFE_SPEED = 10.0
 FINISH_WORD = 'terminate'
-ZERO = 0
+ZERO = 0.0
 
 #make an empty list to store speeds
 safe_speeds = []
