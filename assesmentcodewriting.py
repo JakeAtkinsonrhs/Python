@@ -34,7 +34,7 @@ while speed != FINISH_WORD:
 
 #final printing
 print(f"There were {len(unsafe_speeds)} rockets faster than the safe speed.")
-if len(unsafe_speeds) == 0:
+if len(unsafe_speeds) > 0:
     print('The unsafe speeds are')
     for num in unsafe_speeds:
         print(num)
