@@ -33,4 +33,4 @@ while speed != FINISH_WORD:
     speed = input('Input descent speed in m/s: ')
 
 #final printing / code ending
-print('code worked, proceed with final printing writing')
+print()
