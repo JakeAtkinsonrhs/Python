@@ -32,7 +32,7 @@ while speed != FINISH_WORD:
     #ask for more user input
     speed = input('Input descent speed in m/s: ')
 
-#final printing / code ending
+#final printing
 print(f"There were {len(unsafe_speeds)} rockets faster than the safe speed.")
 print('The unsafe speeds are')
 for num in unsafe_speeds:
